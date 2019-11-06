@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "lib": ["es2018", "dom"],
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "rootDir": "./src",
+      "outDir": "./dist",
+    }, 
+    "include": [
+      "./src/**/*.json", "./src/**/*.ts"
+    ], 
+    "exclude": [
+      "./dist", "./node_modules"
+    ]
+}
